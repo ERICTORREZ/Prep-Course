@@ -4,12 +4,14 @@ function obtenerMayor(x, y) {
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
-  // Tu código: if ( x < y ) {
+  // Tu código: 
+  if ( x < y ) {
     return (y)
   } else {
     return (x)
   }
-}
+} 
+
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
@@ -64,13 +66,13 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch ( color ) {
-    case "blue" ;
+    case "blue":
     console.log ("this is blue") ;
-    case "red" ;
+    case "red":
     console.log ("this is red") ;
-    case "green" ;
+    case "green":
     console.log ("this is green") ;
-    case "orange" ;
+    case "orange":
     console.log ("this is orange")
     default: 
     return ( "color not found" )
